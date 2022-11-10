@@ -1,0 +1,48 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h3{
+    font-family: sans-serif;
+}
+.formula_section {
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  padding: 100px 200px;
+  text-align: center;
+}
+
+.main-box {
+  display: flex;
+}
+
+.input-option {
+  margin: 0px 10px;
+}
+
+input {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+  border: 1px solid rgba(170, 170, 170, 0.267);
+  color: rgb(92, 92, 92);
+}
+
+input:focus,
+input:active {
+  border: 1px solid rgba(170, 170, 170, 0.267);
+}
+.input-option p {
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 5px;
+  text-align: left;
+  font-family: sans-serif;
+  border: 1px solid rgba(170, 170, 170, 0.267);
+
+  color: rgb(92, 92, 92);
+}
